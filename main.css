@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+header {
+    background: rgb(138, 179, 255);
+    padding: 20px;
+    color: rgb(240, 116, 240);
+    text-align: center;
+    margin: 20;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 20px;
+    padding: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.search {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background: rgb(68, 78, 133);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+button {
+    background: rgb(45, 74, 238);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(4, 8, 5);
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    border: solid 1px rgb(138, 255, 177);
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(138, 255, 177);
+    color: rgb(68, 78, 133);
+}
+
+input {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(68, 78, 133);
+    color: rgb(138, 255, 177);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    border: solid 1px rgb(138, 255, 177);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(37, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px;
+    font-family: cursive;
+}
+
+a:hover {
+    background: rgb(138, 255, 177);
+    color: rgb(68, 78, 133);
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Contenido CSS*/
+
+main {
+    font-family: cursive;
+    margin-left: 20px;
+    padding: auto;
+}
+
+h3,
+p {
+    font-weight: bold;
+}
+
+section {
+    padding-top: px;
+}
+
+.aprendiendo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: initial;
+}
+
+img {
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: rgb(27, 39, 61);
+    padding: 20px;
+    color: rgb(138, 255, 177);
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-left: 0;
+    }
+    .aprendiendo {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: initial;
+    }
+    img {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+}
