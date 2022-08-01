@@ -1,7 +1,7 @@
 # WebSiteBlog
 Mi Blog de prueba practicando
 Desarrollo Web..!
-Solo
+Responsive 100%
 
 HTML
 CSS
